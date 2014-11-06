@@ -1,7 +1,7 @@
 ---
 description: "Given a valid reaction id, fetch genes from plantcyc"
 url: http://pmn.plantcyc.org/
-main_module: main.py
+main_module: pathway_by_locus/main.py
 name: loci_by_reaction
 requirements:
   - xmltodict
