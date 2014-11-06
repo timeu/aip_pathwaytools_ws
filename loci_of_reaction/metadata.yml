@@ -1,0 +1,13 @@
+---
+description: "Given a valid reaction id, fetch genes from plantcyc"
+url: http://pmn.plantcyc.org/
+main_module: main.py
+name: loci_by_reaction
+requirements:
+  - xmltodict
+type: query
+version: 0.1
+whitelist:
+  - pmn.plantcyc.org
+  - 129.114.7.134
+  - 130.34.188.241
