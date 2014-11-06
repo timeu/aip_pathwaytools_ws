@@ -1,7 +1,7 @@
 ---
 description: "Given a valid AGI locus, fetch pathway from plantcyc"
 url: http://pmn.plantcyc.org/
-main_module: pathway_by_loci/main.py
+main_module: pathway_by_locus/main.py
 name: pathway_by_loci
 requirements:
   - xmltodict
