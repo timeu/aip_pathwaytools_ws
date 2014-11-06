@@ -22,8 +22,8 @@ def search(arg):
     if not (('reaction' in arg)):
         return
 
-    locus = arg['reaction']
-    locus = locus.upper()
+    reaction = arg['reaction']
+    reaction = reaction.upper()
 
 
     svc_url = 'http://pmn.plantcyc.org/apixml?fn=genes-of-reaction&id=ARA:'+reaction+'&details=full'
